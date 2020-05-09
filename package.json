@@ -1,0 +1,30 @@
+{
+  "name": "webpack-lesson",
+  "version": "1.0.0",
+  "description": "webpack 学习课程源代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngulee/webpack-lesson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngulee/webpack-lesson/issues"
+  },
+  "homepage": "https://github.com/ngulee/webpack-lesson#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
