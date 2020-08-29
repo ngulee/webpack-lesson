@@ -1,0 +1,372 @@
+Webpack Bundle Analyzer is started at http://127.0.0.1:8888
+Use Ctrl+C to close it
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "b5f5f739c1b6e559a32c",
+  "time": 464,
+  "builtAt": 1597760732490,
+  "publicPath": "",
+  "outputPath": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "index.html",
+      "size": 258,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 33565,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 558,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "94e60320c8ffbc44f9ec",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/babel-loader/lib/index.js!/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 558,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 44,
+            "building": 389
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// import _ from 'lodash';\nvar element = document.createElement('div'); // element.innerHTML = _.join(['Dell', 'Lee'], '-');\n\nelement.innerHTML = \"Dear Lee\";\ndocument.body.appendChild(el); // console.log(_.join(['a', 'b', 'c'], '-'))\n// function getComponent() {\n//   return import(/* webpackChunkName: 'lodash' */ 'lodash').then((_) => {\n//     var element = document.createElement('div');\n//     element.innerHTML = _.join(['Dell', 'Lee'], '-');\n//     return element;\n//   })\n// }\n// getComponent().then((el) => {\n//   document.body.appendChild(el);\n// })"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/index.js",
+      "identifier": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/babel-loader/lib/index.js!/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 558,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 44,
+        "building": 389
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "// import _ from 'lodash';\nvar element = document.createElement('div'); // element.innerHTML = _.join(['Dell', 'Lee'], '-');\n\nelement.innerHTML = \"Dear Lee\";\ndocument.body.appendChild(el); // console.log(_.join(['a', 'b', 'c'], '-'))\n// function getComponent() {\n//   return import(/* webpackChunkName: 'lodash' */ 'lodash').then((_) => {\n//     var element = document.createElement('div');\n//     element.innerHTML = _.join(['Dell', 'Lee'], '-');\n//     return element;\n//   })\n// }\n// getComponent().then((el) => {\n//   document.body.appendChild(el);\n// })"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 5884,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 515,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "281720820d3383c2c394",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "identifier": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/html-webpack-plugin/lib/loader.js!/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/public/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 515,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 12,
+                "building": 10
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/html-webpack-plugin/lib/loader.js!/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/public/index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n  <meta charset=\"UTF-8\">\\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n  <title>Document</title>\\n</head>\\n<body>\\n  <div class=\"\" id=\"root\"></div>\\n</body>\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/html-webpack-plugin/lib/loader.js!/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/public/index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+          "identifier": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/html-webpack-plugin/lib/loader.js!/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/public/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 515,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 12,
+            "building": 10
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/html-webpack-plugin/lib/loader.js!/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/public/index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"/Users/lizuoxing/Desktop/workspace/study/frontend/webpack/webpack-lesson/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n  <meta charset=\"UTF-8\">\\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n  <title>Document</title>\\n</head>\\n<body>\\n  <div class=\"\" id=\"root\"></div>\\n</body>\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}

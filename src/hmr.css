@@ -1,0 +1,4 @@
+.item:nth-of-type(odd) {
+  background-color: yellow;
+  color: red;
+}

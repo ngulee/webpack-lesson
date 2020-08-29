@@ -1,0 +1,12 @@
+@import './body.scss';
+
+
+body {
+  .test-img {
+    width: 200px;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+}
